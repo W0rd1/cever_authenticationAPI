@@ -1,9 +1,3 @@
-# 📘 Spring Boot 4 Security API
-
-A secure, production-ready REST API built with **Spring Boot 4**, implementing **JWT authentication**, **account lifecycle management**, and **admin-controlled user access**. This backend is designed to integrate seamlessly with modern frontends (Angular 21+, React, etc.).
-
----
-
 ## 🚀 Tech Stack
 
 * Java 21
@@ -191,7 +185,7 @@ Authorization: Bearer <JWT>
 ### Lock / Unlock User Account
 
 ```http
-PUT /admin/users/lock-status
+POST /admin/users/lock-status
 ```
 
 **Request:**
@@ -260,8 +254,8 @@ failed_attempt_count INT
 
 ## 📧 Email Features
 
-* Account activation email
-* Password reset email
+* Account activation
+* Password reset
 * Token-based secure links
 
 ---
