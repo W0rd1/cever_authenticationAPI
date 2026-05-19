@@ -336,12 +336,6 @@ Compatible with:
 
 ---
 
-## 📄 License
-
-Internal enterprise system — proprietary use only.
-
----
-
 ## ⭐ Summary
 
 This backend provides:
@@ -351,16 +345,4 @@ This backend provides:
 * Admin-controlled user access
 * Production-ready Spring Security architecture
 * Clean REST API for modern frontend integration
-
----
-
-If you want next step, I can also generate:
-
-* 🔥 Spring Security full config class (JWT filter chain)
-* 🔥 Entity + repository + service layer
-* 🔥 Email token system implementation
-* 🔥 Refresh token + Redis blacklist system
-* 🔥 Dockerized production setup (Postgres + Spring Boot)
-
-Just tell me.
 
