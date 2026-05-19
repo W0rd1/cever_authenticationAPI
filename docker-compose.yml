@@ -1,0 +1,11 @@
+services:
+  cever-db:
+    container_name: cever
+    image: postgres:alpine
+    environment:
+      POSTGRES_USER: cever
+      POSTGRES_PASSWORD: ceverdb
+    ports:
+      - "6000:5432"
+    volumes:
+      - ./data:/var/lib/postgresql
